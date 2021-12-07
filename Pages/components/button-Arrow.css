@@ -1,0 +1,41 @@
+.arrow-container {
+    height: 90%;
+    width: 5%;
+    border-radius: 8px;
+    margin-right: 16px;
+  
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+  
+    cursor: pointer;
+    transition: 0.3s;
+    transform-origin: left center;
+    flex-shrink: 0;
+    
+    background-color: rgb(31, 29, 44);
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.Arrow {
+    margin: 10px;
+    border: 50px solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+    
+  }
+
+.right {
+    display: none;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
